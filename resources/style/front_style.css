@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+#bp_pending_payments{
+    margin-bottom: 30px;
+}
+#search-invoices h3,
+#bp_pending_payments h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.success_mesage h4{
+    color:green;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 100%;
+}
+#my-account-nav.nav li>a {
+    font-size: 14px;
+}
+.success_mesage{
+    padding: 10px;
+    margin-bottom: 30px;
+    background: #ececec;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{
+    display: inline-block;
+}
+.cplink_hidden {
+    display: none;
+}
+.cplink_tr {
+    cursor: default;
+}
+
+.cplink_orders_div {
+    margin: 20px auto;
+}
+section.woocommerce-customer-details {
+    overflow: hidden;
+    margin-top: 40px;
+}
+#bp-search-form>div,
+#invoices-search-form>div,
+#sorders-search-block div{
+    max-width: 24%;
+    margin-right: 1.88%;
+    width: 100%;
+    display: inline-block;
+}
+#bp-search-form>div{
+    vertical-align: top;
+}
+#bp-search-form>div,
+#invoices-search-form>div{
+    max-width: 18%;
+}
+#bp-search-form>div:nth-child(6n+6),
+#invoices-search-form>div:nth-child(6n+6){
+    margin-right: 0;
+}
+#bp-search-form div.bp-search,
+#invoices-search-form div.invoices-search,
+#sorders-search-block div.search{
+    max-width: 20%;
+}
+#bp-search-form{
+    position: relative;
+}
+#bp-search-form div.bp-search,
+#invoices-search-form div.invoices-search{
+    max-width: 18%;
+}
+#bp-search-form div.bp-search{
+    position: absolute;
+    right: 4px;
+    bottom: 7px;
+    max-width: 22.5%;
+}
+#bp-search-form div.bp-search,
+#invoices-search-form div.invoices-search{
+    text-align: right;
+}
+#bp-search-form div input,
+#invoices-search-form div input,
+#sorders-search-block div input{
+    width: 100%;
+    font-size: 11px;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: 400;
+    z-index: 2;
+    padding: 10px;
+    height: auto;
+    line-height: 100%;
+}
+.my_account_orders  tr:nth-child(odd),
+.sage-table tr:nth-child(odd){
+    background: #fff;
+}
+.my_account_orders  tr:nth-child(even),
+.sage-table tr:nth-child(even){
+    background: #ececec;
+}
+#bp-search-form div:not(.bp-search) input,
+#invoices-search-form div:not(.invoices-search) input,
+#sorders-search-block div:not(.search) input{
+    color: #999;
+}
+#bp-search-form div.bp-search input,
+#invoices-search-form div.invoices-search input{
+    width: 80%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+#bp-search-form div input::-webkit-input-placeholder ,
+#invoices-search-form div input::-webkit-input-placeholder ,
+#sorders-search-block div input::-webkit-input-placeholder 
+{ /* Edge */
+  text-transform: uppercase;
+  font-size: 11px;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: 400;
+    color: #999;
+    z-index: 2;
+    /*padding: 0 5px;*/
+}
+
+#bp-search-form div input:-ms-input-placeholder ,
+#invoices-search-form div input:-ms-input-placeholder ,
+#sorders-search-block div input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  text-transform: uppercase;
+  font-size: 11px;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: 400;
+    color: #999;
+    z-index: 2;
+    /*padding: 0 5px;*/
+}
+
+#bp-search-form div input::placeholder ,
+#invoices-search-form div input::placeholder ,
+#sorders-search-block div input::placeholder {
+  text-transform: uppercase;
+  font-size: 11px;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: 400;
+    color: #999;
+    z-index: 2;
+    /*padding: 0 5px;*/
+}
+
+.woocommerce-MyAccount-navigation-link,
+.nav>li.woocommerce-MyAccount-navigation-link {
+    padding: 0 10px;
+}
+/*.woocommerce-MyAccount-navigation-link.is-active {
+    border-left: 3px solid red;
+}
+.nav>li.woocommerce-MyAccount-navigation-link:hover {
+    background: #e8e8e8;
+}*/
+
+.sage-table th {
+    text-transform: none;
+}
+.sage-table th,
+.sage-table td {
+    padding: 10px 8px;
+    font-size: 14px;
+}
+.sage-table th:last-child,
+.sage-table td:last-child {
+    padding-right: 10px;
+}
+.sage-table th:first-child,
+.sage-table td:first-child {
+    padding-left: 10px;
+}
+.sage-table tfoot {
+    background: #f5f5f5;
+}
+.cp_invoices_div {
+    margin-top: 30px;
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--invoices a::before {
+    content: "";
+}
+.view_order_actions_col {
+    text-align: right;
+}
+.order_details tfoot th,
+.order_details tfoot td {
+    text-align: right;
+}
+.woocommerce-orders-table__cell-order-actions a,
+.woocommerce-invoices-table__cell-invoice-actions a {
+    display: inline-block;
+    /*display: block;*/
+/*    max-width: 47%;
+    width: 100%;*/
+    /*margin: 0 auto 10px auto;*/
+}
+.view.cplink_toggle_btn{
+
+}
+.woocommerce-button.order-again{
+
+}
+.i_separator {
+    margin: 0 5px;
+}
+.woocommerce-orders-table__cell-order-actions a:last-child,
+.woocommerce-invoices-table__cell-invoice-actions a:last-child {
+    margin-bottom: 0;
+}
+.cp_invoices_div h2,
+.cplink_orders_div h2{
+    font-weight: 300;
+    line-height: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.cp_invoices_div h3,
+.cplink_orders_div h3{
+    font-weight: 900;
+    line-height: 100%;
+}
+.my_account_orders a:not(.button),
+.woocommerce-orders-table__cell-order-actions span,
+.cplink_orders_div table a{
+    color: #006bb4;
+}
+.cplink_orders_div table a:focus{
+    color: #ff5501;;
+    text-decoration: underline;
+}
+.cplink_orders_div table a:hover{
+    text-decoration: underline;
+}
+.woocommerce-invoices-table__cell-invoice-actions,
+.woocommerce-orders-table__cell-order-actions{
+    width: 130px;
+}
+.shop_table thead tr th:last-of-type, .shop_table tr td:last-of-type{
+    text-align: left !important;
+}
+.woocommerce-column__title,
+.sage_additional_info h4,
+.sage_additional_info h3{
+    font-weight: 700;
+}
+.view_order_top_div>div.col{
+    padding-bottom: 0px;
+}
+.woocommerce-order-details h2.woocommerce-order-details__title{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.woocommerce-pagination{
+    margin-top: 30px;
+}
+table.bt tfoot th::before, table.bt tfoot td::before, table.bt tbody td::before{
+    margin-right: 15px;
+}
+.cp_pagination_div{
+    margin-top: 30px;
+}
+.cp_pagination_div .page-numbers{
+    color:#446084;
+    padding: 2px 5px 3px;
+    margin-right: 5px;
+    background: #fff;
+}
+.cp_pagination_div span.page-numbers {
+    cursor: default;
+}
+.cp_pagination_div .page-numbers.current{
+    color: #999;
+    border: 0;
+    background: none;
+}
+.cp_pagination_div a.page-numbers:hover{
+    opacity: .7;
+}
+.cp_pagination_div .next.page-numbers,
+.cp_pagination_div .prev.page-numbers{
+    background: none;
+    border: 0
+}
+.cp_pagination_div .next.page-numbers{
+    margin-right: 0;
+}
+
+.woocommerce-form-register:not(.show_fields) h3,
+ .woocommerce-form-register:not(.show_fields) h4,
+ .woocommerce-form-register:not(.show_fields) .woocommerce-privacy-policy-text,
+ .woocommerce-form-register:not(.show_fields) .form-row{
+     display: none;
+ }
+.woocommerce-form-register .hidden_row{
+    display: none;
+}
+.woocommerce-form-register .cp_choose_form_type{
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-right: 10px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.woocommerce-form-register .cp_choose_form_type.active,
+.woocommerce-form-register .cp_choose_form_type:hover{
+    background-color: #333;
+    color: #fff;
+}
+.woocommerce-form-register .buttons_wrapper{
+    margin-bottom: 11px;
+}
+.button.delete{
+    background-color: #B20000
+}
+#login-form-popup{
+    max-width: 990px;
+}
+.woocommerce-privacy-policy-text p{
+    font-size: 12px;
+}
+.woocommerce-account .address_book .add-new-address{
+    margin-top: 8px;
+}
+.cp_address_book .wc-address-book-address{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.cp_address_book .wc-address-book-address:last-child{
+    border-bottom: 0;
+}
+.address_book.shipping_address_book,
+.address_book.billing_address_book{
+    margin-top: 50px;
+}
+.woocommerce-Addresses .woocommerce-Address{
+    display: inline-block;
+    max-width: 49%;
+    width: 100%;
+    margin-right: 1.5%;
+}
+.woocommerce-Addresses .woocommerce-Address:nth-child(2n+2){
+    margin-right: 0;
+}
+.wc-address-book-meta a{
+    font-size: 14px;
+    font-weight: 300;
+}
+.cp_account_balance_wrapper {
+    margin: 10px auto 30px;
+}
+.cp_account_balance_wrapper header {
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 1em;
+}
+
+
+/** cash receipt **/
+.make_payment_wrapper.align_right{
+    text-align: right;
+    margin-bottom: 15px;
+}
+.make_payment_wrapper.align_right button{
+    margin-right: 0;
+}
+#invoices_popup{
+    display: none;
+}
+.bp_add_invoices{
+    text-align: right;
+}
+body #invoices_popup .bp_invoice_items_posted,
+#bp_cash_table input{
+    padding: 5px 10px;
+    font-size: 14px;
+    max-width: 60%;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+#bp_cash_table_wrapper{
+    margin-top: 50px
+}
+#invoices_popup{
+    max-width: 900px;
+    width: 100%;
+}
+#invoices_popup h2{
+    font-weight: bolder;
+    border-bottom: 1px solid #c1c1c1;
+    font-weight: 300;
+    padding-bottom: 10px;
+    font-size: 26px;
+    margin-bottom: 0;
+    min-height: 1em;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+}
+.bp_invoice_count_row{
+    font-size: 14px;
+}
+#bp_item_to_find_amount_posted{
+    text-align: center;
+}
+#invoices_popup_search_form>div{
+        max-width: 23.9%;
+    width: 100%;
+    margin-right: 1%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+#invoices_popup_search_form>div.invoices_popup_search{
+    margin-right: 0;
+}
+#invoices_popup_search_form>div.invoices_popup_search input{
+    width: 100%;
+}
+#invoices_popup_search_btn{
+    margin-right: 0;
+    width: 100%;
+}
+.bp_action_add_all_items{
+        padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #c1c1c1;
+    text-align: right;
+}
+.bp_action_add_all_items .bp_action_add_items{
+    padding: 10px;
+    line-height: 100%;
+    margin-right: 0;
+}
+.fancybox-content{
+    padding: 30px;
+}
+.cp_bill_payments_div strong.product-quantity { display: none; }
+tr.bp_cart_item_tr {
+    position: relative;
+}
+tr.bp_cart_item_tr.loading > td {
+    opacity: 0.85;
+}
+tr.bp_cart_item_tr.loading:after {
+    border-color: #000;
+}
+
+#deposit_amount{
+    max-width: 250px;
+}
+#bp_cash_table_wrapper .deposit tbody tr{
+    background: #ececec;
+}
+
+/** to move to cplink **/
+.error_field{
+    border: 1px solid rgb(255,0,0) !important;
+}
+
+
+@media screen and (max-width: 767px) {
+    table.bt tfoot th::before, table.bt tfoot td::before, table.bt tbody td::before{
+        display: none;
+    }
+    #invoices_popup_search_form>div{
+        max-width: 100%;
+        margin-right: 0;
+        display: block;
+    }
+    .bp_pp_view:before,
+    .bp_create_view:before,
+    .bp_popup_checkbox:before{
+        content: "" !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    #bp-search-form>div, #invoices-search-form>div{
+        max-width: 100%;
+        margin-right: 0;
+    }
+    #bp-search-form div.bp-search{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+    #bp-search-form div.bp-search input{
+        width: 100%;
+    }
+}

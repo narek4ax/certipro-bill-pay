@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+li.cart-item, li.cart-item+.header-divider {
+    display: none;
+}
+.checkout-page-title {
+    display: none;
+}
+.woocommerce-billing-fields {
+    border-top: none;
+}
+.woocommerce-checkout {
+
+}
+.woocommerce-billing-fields{
+    padding-top: 0;
+}
+.woocommerce-billing-fields h3{
+    padding-bottom: 15px;
+    padding-top: 0 !important;
+}
+.select2-container {
+    max-width: 100%;
+}
+.woocommerce-checkout-review-order-table .product-quantity,
+.woocommerce-checkout-review-order-table .cart-subtotal{
+    display: none;
+}
+#order_review thead{
+    display: none;
+}
+#order_review_heading{
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .large-5.col,
+    .large-7.col{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .woocommerce-SavedPaymentMethods{
+        margin-left: 20px;
+    }
+    
+}
